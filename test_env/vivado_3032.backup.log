@@ -1,0 +1,60 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Apr 12 10:09:01 2019
+# Process ID: 3032
+# Current directory: C:/Users/Maria/Desktop/An 2 sem 2/AC/test_env
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3884 C:\Users\Maria\Desktop\An 2 sem 2\AC\test_env\test_env.xpr
+# Log file: C:/Users/Maria/Desktop/An 2 sem 2/AC/test_env/vivado.log
+# Journal file: C:/Users/Maria/Desktop/An 2 sem 2/AC/test_env\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Maria/Desktop/An 2 sem 2/AC/test_env/test_env.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Downloads/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:36 ; elapsed = 00:00:58 . Memory (MB): peak = 734.813 ; gain = 174.785
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1
+WARNING: [filemgmt 20-736] The current top specification, "test_env", does not uniquely identify a single design element. Using "test_env" (Architecture: Behavioral, Library: xil_defaultlib, File: C:/Users/Maria/Desktop/An 2 sem 2/AC/test_env/test_env.srcs/sources_1/new/uuu.vhd).
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'test_env(Behavioral)' found in library 'xil_defaultlib'
+Duplicate found at line 24 of file C:/Users/Maria/Desktop/An 2 sem 2/AC/test_env/test_env.srcs/sources_1/new/test_env.vhd
+	(Active) Duplicate found at line 24 of file C:/Users/Maria/Desktop/An 2 sem 2/AC/test_env/test_env.srcs/sources_1/new/uuu.vhd
+[Fri Apr 12 10:54:14 2019] Launched synth_1...
+Run output will be captured here: C:/Users/Maria/Desktop/An 2 sem 2/AC/test_env/test_env.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+WARNING: [filemgmt 20-736] The current top specification, "test_env", does not uniquely identify a single design element. Using "test_env" (Architecture: Behavioral, Library: xil_defaultlib, File: C:/Users/Maria/Desktop/An 2 sem 2/AC/test_env/test_env.srcs/sources_1/new/uuu.vhd).
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'test_env(Behavioral)' found in library 'xil_defaultlib'
+Duplicate found at line 24 of file C:/Users/Maria/Desktop/An 2 sem 2/AC/test_env/test_env.srcs/sources_1/new/test_env.vhd
+	(Active) Duplicate found at line 24 of file C:/Users/Maria/Desktop/An 2 sem 2/AC/test_env/test_env.srcs/sources_1/new/uuu.vhd
+[Fri Apr 12 10:56:18 2019] Launched synth_1...
+Run output will be captured here: C:/Users/Maria/Desktop/An 2 sem 2/AC/test_env/test_env.runs/synth_1/runme.log
+export_ip_user_files -of_objects  [get_files {{C:/Users/Maria/Desktop/An 2 sem 2/AC/test_env/test_env.srcs/sources_1/new/uuu.vhd}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/Maria/Desktop/An 2 sem 2/AC/test_env/test_env.srcs/sources_1/new/uuu.vhd}}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1
+[Fri Apr 12 10:58:41 2019] Launched synth_1...
+Run output will be captured here: C:/Users/Maria/Desktop/An 2 sem 2/AC/test_env/test_env.runs/synth_1/runme.log
+[Fri Apr 12 10:58:42 2019] Launched impl_1...
+Run output will be captured here: C:/Users/Maria/Desktop/An 2 sem 2/AC/test_env/test_env.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1
+[Fri Apr 12 11:00:48 2019] Launched synth_1...
+Run output will be captured here: C:/Users/Maria/Desktop/An 2 sem 2/AC/test_env/test_env.runs/synth_1/runme.log
+[Fri Apr 12 11:00:48 2019] Launched impl_1...
+Run output will be captured here: C:/Users/Maria/Desktop/An 2 sem 2/AC/test_env/test_env.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1
+[Fri Apr 12 11:01:54 2019] Launched synth_1...
+Run output will be captured here: C:/Users/Maria/Desktop/An 2 sem 2/AC/test_env/test_env.runs/synth_1/runme.log
+[Fri Apr 12 11:01:54 2019] Launched impl_1...
+Run output will be captured here: C:/Users/Maria/Desktop/An 2 sem 2/AC/test_env/test_env.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 12 11:03:28 2019...
